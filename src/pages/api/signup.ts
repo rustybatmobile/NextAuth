@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
 
-type Data = {
+type Data = { 
     name: string
   }
   
@@ -9,7 +9,7 @@ type Data = {
     res: NextApiResponse<Data>
   ) {
 
-        
+
 
     res.status(200).json({ name: 'John Doe' })
   }
